@@ -5,10 +5,10 @@ so-called [Fleury's algorithm](https://en.wikipedia.org/wiki/Eulerian_path#Fleur
 
 ## The algorithm
 
-As the algorithm states, Eulerian trail can only exists if and only if the number of odd degrees in the graph is **0**
+The algorithm states that Eulerian trail exists in a graph if and only if the number of odd degrees in the graph is either **0**
 or **2**.
 
-1. Validate if Eulerian trail can exist
+1. Validate if Eulerian trail exist in the graph
 1. If so, choose a starting point as follows:
     1. If the number of odd vertices is 2, pick one of them (here the first odd one)
     1. If there are no odd vertices pick any arbitrary vertex (here the first one)
